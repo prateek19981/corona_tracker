@@ -22,3 +22,12 @@ body
     transform: translate(500px);
 }
 
+@media(max-width:770px){
+    .button{
+        transform: translate(0px,100px);
+    }
+
+
+}
+
+
