@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/corona_tracker.git/precache-manifest.f6460eacb1e07248d9b385fef5cabe02.js"
+  "/corona_tracker/precache-manifest.a0dce272ef63e77e72d5c1f7f4d77d14.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/corona_tracker.git/index.html", {
+workbox.routing.registerNavigationRoute("/corona_tracker/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
